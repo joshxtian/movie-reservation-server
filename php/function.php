@@ -17,7 +17,7 @@ function insertBooking()
   $qtyNum = (int)$qty;
 
   if (!empty($email) && !empty($branchId) && !empty($rowNum)&& !empty($movieId)&& !empty($schedId)&& !empty($qtyNum)) {
-    $insert = new insert($email,$movieId,$branchId,$rowNum,$schedId,$qtyNum);
+    $insert = new Insert($email,$movieId,$branchId,$rowNum,$schedId,$qtyNum);
 
 
     if ($insert->insertBooking()) {
@@ -39,7 +39,7 @@ function insertBooking()
 function deleteReservation()
 {
   if (!empty($_GET['delete'])) {
-    $delete = new delete($_GET['delete']);
+    $delete = new Delete($_GET['delete']);
     
     if ($delete->deleteBooking()) {
       echo '<div class="alert alert-danger alert-dismissible fade show" role="alert">
