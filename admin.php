@@ -30,7 +30,7 @@ require_once "./php/function.php";
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav ml-auto color">
-              <a class="nav-item nav-link navitem active navitem" href="/movie-reservation/index.php">Home</a>
+              <a class="nav-item nav-link navitem active navitem" href="/index.php">Home</a>
               <a class="nav-item nav-link navitem" href="#">Movies</a>
               <a class="nav-item nav-link navitem" href="#">Contact Us</a>
               <a class="nav-item nav-link"><img src="./src/img/fb-icon.png" alt="fb icon" /></a>
