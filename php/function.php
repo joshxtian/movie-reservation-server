@@ -57,17 +57,6 @@ function deleteReservation()
 
 
 
-
-
-
-
-
-
-
-
-
-
-
 ?>
 
 

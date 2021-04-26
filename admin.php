@@ -1,6 +1,7 @@
 <?php
 require_once "./php/init.php";
 require_once "./php/function.php";
+
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -43,6 +44,9 @@ require_once "./php/function.php";
 
   <section class="reserve-wrap">
     <div class="container">
+      <?php
+        deleteReservation();
+      ?>
       <h4 class="text-light">Reservations</h4>
 
       <table class="table text-light">
@@ -61,7 +65,6 @@ require_once "./php/function.php";
             <?php
             $view = new View;
             $view->viewReserved();
-            deleteReservation();
             ?>
         </tbody>
       </table>

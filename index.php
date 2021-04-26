@@ -25,7 +25,7 @@ require_once "./php/function.php";
     <div id="Home">
       <div class="container-fluid navcon">
         <div class="container">
-          <nav class="navbar navbar-expand-md navbar-dark pt-md-4 mb-5">
+          <nav class="navbar navbar-expand-md navbar-dark pt-md-4 mb-lg-5 mb-sm-0">
             <img src="./src/img/logo-header.png" class="logo" data-aos="fade-down" data-aos-duration="2000" />
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -114,7 +114,7 @@ require_once "./php/function.php";
   <footer class="footer text-light text-center">
     <div class="container footer-container">
       <div class="row">
-        <div class="col">
+        <div class="col-md-4 col-sm-6 footer-app">
           <h5 class="fs-3 text-start">Download Our App</h5>
           <p class="fs-6 text-start">
             Download App for Android and OS mobile phone
@@ -124,14 +124,14 @@ require_once "./php/function.php";
             <img src="./src/img/appleplay-icon.png" />
           </div>
         </div>
-        <div class="col">
+        <div class="col-md-4 col-sm-6 footer-logo-container">
           <img class="footer-logo mb-3" src="./src/img/logo-footer.png" />
           <p class="fs-6">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum nihil
             ea.
           </p>
         </div>
-        <div class="col">
+        <div class="col-md-4 col-sm-12 footer-links">
           <div class="container-fluid">
             <div class="row">
               <div class="col">
@@ -163,9 +163,9 @@ require_once "./php/function.php";
     </div>
   </footer>
   
-  <div class="d-flex justify-content-end fixed-bottom py-5">
+  <!-- <div class="d-flex justify-content-end fixed-bottom py-5">
     <a href="/admin.php" class="btn btn-info">Admin Panel</a>
-  </div>
+  </div> -->
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

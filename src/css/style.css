@@ -239,7 +239,34 @@ header {
   }
 }
 
+
 @media only screen and (max-width: 480px) {
+  .footer-logo-container{
+    margin-bottom:50px;
+    order:1;
+  }
+  .footer-app{
+    margin-bottom:50px;
+    text-align: center !important;
+    order:2;
+  }
+  .footer-app *{
+    text-align: center !important;
+  }
+
+  .footer-links{
+    order:3
+  }
+
+  .headermain{
+    font-size:400% !important;
+  }
+
+  .header-p{
+    font-size: 100%;
+  }
+
+
   .information-column{
     padding:1rem !important;
   }

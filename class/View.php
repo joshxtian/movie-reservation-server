@@ -14,7 +14,7 @@ class view extends config
     foreach ($result as $movie) {
       echo "<div class='col-xl-4 col-lg-6 col-md-12'>
           <div
-            class='card card-shadow mx-auto my-3'
+            class='card card-shadow mx-auto my-3 w-auto'
             style='width: 18rem'
             data-aos='fade-right'
             data-aos-duration='2000'
