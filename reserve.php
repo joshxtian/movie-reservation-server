@@ -87,7 +87,7 @@ require_once "./php/function.php";
                   <select class="form-select" name="branches" aria-label="Default select example">
                     <option selected>Branch</option>
                     <?php
-                    $view = new View;
+                    $view = new view;
                     $view->viewBranchOption();
                     ?>
                   </select>
@@ -107,7 +107,7 @@ require_once "./php/function.php";
                     <select class="form-select" name="movies" aria-label="Default select example">
                       <option selected>Movie</option>
                       <?php
-                      $view = new View;
+                      $view = new view;
                       $view->viewMovieOption();
                       ?>
                     </select>
@@ -116,7 +116,7 @@ require_once "./php/function.php";
                     <select class="form-select" name="schedules" aria-label="Default select example">
                       <option selected>Schedule</option>
                       <?php
-                      $view = new View;
+                      $view = new view;
                       $view->viewSchedOption();
                       ?>
                     </select>

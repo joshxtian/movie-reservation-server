@@ -63,7 +63,7 @@ require_once "./php/function.php";
         </thead>
         <tbody>
             <?php
-            $view = new View;
+            $view = new view;
             $view->viewReserved();
             ?>
         </tbody>

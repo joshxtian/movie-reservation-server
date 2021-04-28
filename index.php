@@ -78,7 +78,7 @@ require_once "./php/function.php";
         <div class="container">
           <div class="row">
             <?php
-              $view = new View;
+              $view = new view;
               $view->viewMovies();
             ?>
           </div>
