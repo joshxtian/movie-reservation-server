@@ -2,7 +2,7 @@
 require_once "./php/init.php";
 class config{
     private $user = 'root';
-    private $password = '';
+    private $password = 'Joshuaczsaturno99';
     public $pdo = null;
 
     public function con(){
